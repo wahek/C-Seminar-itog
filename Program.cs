@@ -23,20 +23,40 @@ void PrintNumbers(int n)
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-Console.WriteLine("Введите первое число: ");
-int N = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите второе число: ");
-int M = int.Parse(Console.ReadLine()!);
-if(N > M){
-    int temp = N;
-    N = M;
-    M = temp;
-}
-if(M == N) Console.WriteLine(N);
-else{Console.WriteLine(GetSumFromMinToMax(N, M));
-}
+// Console.WriteLine("Введите первое число: ");
+// int N = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите второе число: ");
+// int M = int.Parse(Console.ReadLine()!);
+// if(N > M){
+//     int temp = N;
+//     N = M;
+//     M = temp;
+// }
+// if(M == N) Console.WriteLine(N);
+// else{Console.WriteLine(GetSumFromMinToMax(N, M));
+// }
 
 int GetSumFromMinToMax(int n, int m){
     if(n == m) return(m);
     else return n + GetSumFromMinToMax(n + 1, m);
+}
+
+// Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+// m = 2, n = 3 -> A(m,n) = 9
+// m = 3, n = 2 -> A(m,n) = 29
+
+Console.WriteLine("Введите первое число: ");
+int N = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите второе число: ");
+int M = int.Parse(Console.ReadLine()!);
+if (N < 0 || M < 0) Console.WriteLine("Читайте условие");
+else
+{
+    Console.Write($"{FunctionAkkerman(N, M)}");
+}
+int FunctionAkkerman(int n, int m)
+{
+    if (n == 0) return m + 1;
+    else if (n > 0 && m == 0) return FunctionAkkerman(n - 1, 1);
+    else return FunctionAkkerman(n - 1, FunctionAkkerman(n, m - 1));
 }
