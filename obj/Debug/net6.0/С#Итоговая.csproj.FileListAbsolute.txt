@@ -1,0 +1,15 @@
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\bin\Debug\net6.0\С#Итоговая.exe
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\bin\Debug\net6.0\С#Итоговая.deps.json
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\bin\Debug\net6.0\С#Итоговая.runtimeconfig.json
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\bin\Debug\net6.0\С#Итоговая.dll
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\bin\Debug\net6.0\С#Итоговая.pdb
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.csproj.AssemblyReference.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.AssemblyInfoInputs.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.AssemblyInfo.cs
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.csproj.CoreCompileInputs.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.dll
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\refint\С#Итоговая.dll
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.pdb
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\С#Итоговая.genruntimeconfig.cache
+C:\Users\wahek\OneDrive\Desktop\seminar\C#\С#Итоговая\obj\Debug\net6.0\ref\С#Итоговая.dll
